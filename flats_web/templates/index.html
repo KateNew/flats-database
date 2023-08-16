@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flats images</title>
+</head>
+<body>
+    <h1>Flats images</h1>
+    {% for row in data %}
+            <h3>{{row[1]}}</h3>
+            <img src={{ row[2] }}>
+    {% endfor %}
+
+</body>
+</html>
